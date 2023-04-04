@@ -178,19 +178,21 @@ p{
 .login-container{
   text-align: center;
   margin-top: 50px;
-  margin-left: 150px;
+  margin-left: 280px;
   margin-right: 150px;
-  width: 80%;
-  background-color: lightcoral;
+  margin-bottom: 150px;
+  width: 50%;
+  background-color: plum;
 }
 
 .register-container{
   text-align: center;
   margin-top: 50px;
-  margin-left: 180px;
-  margin-right: 18S0px;
-  width: 80%;
-  background-color: lightcoral;
+  margin-left: 280px;
+  margin-right: 150px;
+  width: 50%;
+  margin-bottom: 150px;
+  background-color:plum;
 }
 form {
   color: black;
