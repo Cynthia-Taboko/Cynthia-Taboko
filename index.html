@@ -1,110 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <meta charset="utf-8" />
-       <title> My first webpage</title>
-       <link rel="stylesheet" href="mystylesheet.css" />
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-       <meta name="description" content="different Cameroonian and Nigerian dishes">
-       <meta name="keywords" content="African food,Cameroonian dishes, Nigerian food, best African Cuisine in London"/>
-    </head>
-    <body>
-      <div class="header">
-        <a href="#default" class="logo">Cynthia's Cuisine</a>
-        <div class="header-right">
-          <a class="active" href="./loginPage.html">Login</a>
-          <a href="./menu.html">Menu</a>
-          <a href="./contact.html">Contact</a>
-        </div>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Spicy Bliss Resturant</title>
+  <link rel="stylesheet" href="mystylesheet.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <meta name="description" content="different Cameroonian and Nigerian dishes">
+  <meta name="keywords" content="African food,Cameroonian dishes, Nigerian food, best African Cuisine in London" />
+</head>
+
+<body>
+  <div class="header">
+    <a href="#default" class="logo">Spicy Bliss</a>
+    <div class="header-right">
+      <a class="active" href="#home">Home</a>
+      <a href="./order/menu.html">Menu</a>
+      <a href="../loginPage.html">Login</a>
+      <a href="../register.html">Register</a>
+    </div>
+  </div>
+  <h1> Hello! Welcome To Spicy Bliss Resturant</h1>
+  <p>We Pride Ourselve as the Best in Making Healthy and Delicious Cameroonian and Nigerian dishes. Order from Us for an
+    Amazing Experience And benefit from our unmatched Discounts.</p>
+  <div class="slider-frame">
+    <div class="slide-images">
+      <div class="img-container">
+        <img src="images/Restuarant-2.webp">
       </div>
-      <h1> Hello! Welcome To Cynthia's Cuisine</h1>
-      <p> Missing The Taste of Home? Or Would Simply Like To Try new dishes?, Order from us for an Amazing Experience.  
-        We pride ourselve as the best in making Healthy and Delicious Cameroonian or Nigerian dishes.</p>
-      
-      <h4 class="purpletext"> Menu List</h4>
-        <p>    </p>
-      <ul>
-        <li>Cameroon/Nigeria Jellof.</li>
-        <li>Grilled Chicken accompanied with Fried Plantain or Chips.</li>
-        <li>Grilled Fish</li>
-        <li>Poulet DG</li>
-        <li>Eru and Gari</li>
-        <li>Ndole and Boiled Plantains </li>
-        <li>Egusi Pudding</li>
-        <li>Katikati and Fufu Corn</li>
-        <li>Egusi Soup and Pounded Yam/Fufu</li>
-        <li>Bitterleaf Soup and Pounded Yam/Fufu</li>
-        <li>Afang Soup and Gari/Fufu</li>
-        <li>Etc...</li>
-      </ul>
-      <h4> Other Services We Offer</h4>
-      <p>    </p>
-      <ol>
-        <li>Online and Home Cooking Classes</li>
-        <li>Cooking Orders for Ceremonies/Parties </li>
-        <li>Well Trained Customer Service Assistants to Offer an Extra Ordinary Guests Experience</li>
-      </ol>
-      <table>
-        <h4>Price Ranges and Discount Rates</h4>
-        <tr>
-          <th>Order Size</th>
-          <th>Price range/Discount</th>
-        </tr>
-        <tr>
-          <td>Small</td>
-          <td>£10-£15 5% Discount For Orders From 5 Plates Above.</td>
-        </tr>
-        <tr>
-          <td>Medium</td>
-          <td>£15-£25 10% Discount For Orders From 5 Pates Above.</td>
-        </tr>
-        <tr>
-            <td>Large</td>
-            <td>£26-£35 12% Discount For Orders From 5 Plates Above. </td>
-          </tr>
-          <tr>
-            <td>Cooking Classes and Other Services</td>
-            <td>Are Negotiable Based On Preferences.</td>
-          </tr>
-      </table> 
-      <img src="./images/Poulet DG.jpeg" height="200px" width="300px" />
-      <img src="./images/Grilled fish.jpeg" height="200px" width="300px"/>
-      <img src="./images/Nigerian Jellof.jpeg" height="200px" width="300px"/>
-      <img src="./images/Egusi Soup and fufu.jpeg" height="200px" width="300px"/>
-      <img src="./images/Ndole.jpeg" height="200px" width="300px"/>
-
-      <h5> New To Website!!! Please Register For Fast Delivery To All Your Orders And Benefit Discounts...</h5>
-
-      <br /><br />
-
-      <form action="./formSuccess.html">
-        <label for="fusername">UserName:</label><br />
-        <input
-        type="text"
-        maxlength="10"
-        value=""
-        id="fusername"
-        name="fusername"
-        required
-        /><br><br />
-        <label for="femail">Email:</label><br>
-        <input type="email" value="" id="femail" name="femail" required /><br><br />
-        <label for="fpassword">Password:</label><br>
-        <input type="password" value="" id="fpassword" required /><br><br />
-        <label for="fconfirmpassword">Confirm Password:</label><br>
-        <input type="password" value="" id="fconfirmpassword" required /><br><br />
-        <input type="submit" value="Register"/>
-      </form>
-      <p>Or</p>
-      <form action="./loginPage.html">
-        <input type="submit" value="Login"/>
-      </form>
-        
-      <br><br />
-      <a href="mailto: cynthiataboko@gmail.com"> Email Address </a><br><br/>
-      <a href="tel:07508043758"> Phone Number </a><br><br/>
-      <a href="https://en.wikipedia.org/wiki/Cameroonian_cuisine"> About Cameroon Cuisine </a><br><br/>
-      <a href="https://nomadparadise.com/nigerian-food/"> Most Popularly Tried nigerian-food</a>
-    </body>
+      <div class="img-container">
+        <img src="images/Africa-restau D.jpg" height="600" width="1000">
+      </div>
+      <div class="img-container">
+        <img src="images/African-Restaurant D.webp" height="600" width="1000">
+        <div class="img-container">
+        </div>
+      <footer>
+        <div class="footer-content">
+         <h4>Cameroonian And Nigerian Cuisine</h4>
+         <p>email: cynthiacuisine@gmail.com</p>
+         <p>phone:0234367778</p>
+           <a href="https://en.wikipedia.org/wiki/Cameroonian_cuisine"> About Cameroon Cuisine </a><br>
+           <a href="https://nomadparadise.com/nigerian-food/"> Most Popularly Tried nigerian-food</a>
+           </div>
+</footer><br>
+</body>
 </html>
-    

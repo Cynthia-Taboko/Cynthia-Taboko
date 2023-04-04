@@ -3,17 +3,32 @@
     <head>
         <meta charset="utf-8" />
         <title>Login Page</title>
+        <link rel="stylesheet" href="mystylesheet.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
     <body> 
-       <h2>Login</h2>
-       <form action="./menu.html">
+      <div class="header">
+        <a href="#default" class="logo">Spicy Bliss</a>
+        <div class="header-right">
+          <a href="../index.html">Home</a>
+          <a href="./order/menu.html">Menu</a>
+          <a class="active" href="#login">Login</a>
+          <a href="../register.html">Register</a>
+        </div>
+      </div>
+      <div class="login-container">
+             <h2>Spicy Login</h2>
+       <form action="./order/menu.html">
         <label for="femail">Email:</label><br >
         <input type="email" value="" id="femail" name="femail" required /><br><br/>
         <label for="fpassword">Password:</label><br>
         <input type="password" value="" id="fpassword" required /><br><br/>
         <input type="submit" value="Login"/>
-      </form>
-
+      </form><br>
+      <a href="mailto: cynthiataboko@gmail.com"> Email Address </a><br><br />
+      <a href="tel:07508043758"> Phone Number </a><br><br />
+      </div>
        
     </body>
 </html>

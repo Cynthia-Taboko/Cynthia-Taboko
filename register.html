@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8" />
+       <title>Register Page</title>
+       <link rel="stylesheet" href="mystylesheet.css" />
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+       <meta name="description" content="different Cameroonian and Nigerian dishes">
+       <meta name="keywords" content="African food,Cameroonian dishes, Nigerian food, best African Cuisine in London"/>
+    </head>
+    <body>
+        <div class="header">
+            <a href="#default" class="logo">Spicy Bliss</a>
+            <div class="header-right">
+              <a href="../index.html">Home</a>
+              <a href="./order/menu.html">Menu</a>
+              <a href="../loginPage.html">Login</a>
+              <a class="active" href="#registration">Register</a>
+            </div>
+          </div>
+        <h5> New To Website!!! Please Register For Fast Delivery To All Your Orders And Benefit Discounts...</h5>
+        <br /><br />
+        <div class="register-container">
+        <form action="./formSuccess.html">
+            <label for="fusername">UserName:</label><br />
+            <input
+            type="text"
+            maxlength="10"
+            value=""
+            id="fusername"
+            name="fusername"
+            required
+            /><br><br />
+            <label for="femail">Email:</label><br>
+            <input type="email" value="" id="femail" name="femail" required /><br><br />
+            <label for="fpassword">Password:</label><br>
+            <input type="password" value="" id="fpassword" required /><br><br />
+            <label for="fconfirmpassword">Confirm Password:</label><br>
+            <input type="password" value="" id="fconfirmpassword" required /><br><br />
+            <input type="submit" value="Register"/>
+          </form>
+           <p>Already have an account? Click on login</p>
+          <form action="./loginPage.html">
+           <input type="submit" value="Login"/>
+          </form><br></br>
+        </div>
+    </body>
+    </html>
